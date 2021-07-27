@@ -18,7 +18,7 @@ jobs:
     - name: Run Elasticsearch
       uses: s-hara-znt/elasticsearch-with-plugins-action@part9_github_action_modify
       with:
-        stack-version: 7.6.0
+#         stack-version: 7.6.0
         plugins: |
          analysis-kuromoji
     - name: Build and test
